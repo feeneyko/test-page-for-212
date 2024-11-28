@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Boxes</title>
+    <style>
+        .color-box {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            margin: 10px;
+        }
+        .red { background-color: red; }
+        .green { background-color: green; }
+        .blue { background-color: blue; }
+        .yellow { background-color: yellow; }
+        .purple { background-color: purple; }
+        .orange { background-color: orange; }
+        .magenta { background-color: magenta; }
+        .phthalo-green { background-color: #123524; }
+        .black { background-color: rgb(64, 64, 64); }
+        .color-box span {
+            display: block;
+            text-align: center;
+            line-height: 100px;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <section id="section1">
+        <div class="color-box red"><span>Red</span></div>
+        <div class="color-box green"><span>Green</span></div>
+        <div class="color-box blue"><span>Blue</span></div>
+        <div class="color-box yellow"><span>Yellow</span></div>
+        <div class="color-box purple"><span>Purple</span></div>
+    </section>
+    <section id="section2">
+        <div class="color-box orange"><span>Orange</span></div>
+        <div class="color-box magenta"><span>Magenta</span></div>
+        <div class="color-box phthalo-green"><span>Phthalo Green</span></div>
+        <div class="color-box black"><span>Black</span></div>
+    </section>
+</body>
+</html>
